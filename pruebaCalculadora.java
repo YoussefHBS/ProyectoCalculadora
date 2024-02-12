@@ -19,4 +19,11 @@ public class pruebaCalculadora {
             return num2 -num1;
         }
     }
+    public int Multiplicar() {
+        return num1 * num2;
+    }
+    public int Dividir() {
+        return num1 / num2;
+
+    }
 }
