@@ -11,5 +11,12 @@ public class pruebaCalculadora {
     public int suma() {
         return num1 + num2;
     }
-
+    public int resta() {
+        if ( num1 > num2){
+        return num1 - num2;
+        }
+        else {
+            return num2 -num1;
+        }
+    }
 }

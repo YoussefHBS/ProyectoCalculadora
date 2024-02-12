@@ -8,6 +8,7 @@ public class Calculadora {
                     
                     System.out.println("Seleccione una operación:");
                     System.out.println("1. Suma");
+                    System.out.println("2. Resta");
                     System.out.println("0. Salir");
                     opcion = scanner.nextInt();
                     System.out.print("Dime el primer numero: ");
@@ -22,6 +23,10 @@ public class Calculadora {
                         case 1:
                             resultado = calculadora.suma();
                             System.out.println("El resultado de la suma es: " + resultado);
+                            break;
+                            case 2:
+                            resultado = calculadora.resta();
+                            System.out.println("El resultado de la resta es: " + resultado);
                             break;
 
                         default:
