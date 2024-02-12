@@ -9,6 +9,7 @@ public class Calculadora {
                     System.out.println("Seleccione una operación:");
                     System.out.println("1. Suma");
                     System.out.println("2. Multiplicar");
+                    System.out.println("3. dividir");
                     System.out.println("0. Salir");
                     opcion = scanner.nextInt();
                     System.out.print("Dime el primer numero: ");
@@ -27,6 +28,10 @@ public class Calculadora {
                             case 2:
                             resultado = calculadora.Multiplicar();
                             System.out.println("El resultado de la Multiplicación es: " + resultado);
+                            break;
+                            case 3:
+                            resultado = calculadora.Dividir();
+                            System.out.println("El resultado de la división es: " + resultado);
                             break;
 
                         default:
